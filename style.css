@@ -1,0 +1,163 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+/*border-width goes in clockwise order, starting at top.
+border-left-width targets left width
+just use border (affects width, color and style on same line-height
+ie border: 2px #FFF solid (order doesnt matter)
+border-radius makes corners rounded
+styles: solid, dashed, dotted, double, groove, inset, outset, ridge, hidden
+*/
+/*padding applies to space between contents of box and border of box
+padding goes clockwise order, start top
+ie. padding: 10px 30px 30px 2px
+if top= bottom, left=bottom use shortcut 
+ie. padding: 5px 10px (top, left)*/
+/*margin applies to space outside of the box, so other elements can't touch
+that specific element
+margin auto will center the element relative to the container it is inside of
+element needs a width in order to center*/
+/* display will display an element either as inline or as a block (or use 
+inline-block so it behaves like both
+difference between display and hidden: display rids of the element AND space
+reserved for it*/
+/*
+*{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+useful, lets you see how the box items interact
+*/
+/*
+*{
+  box-sizing: border-box;
+}
+keeps boxes in place
+*/
+/*position positions the boxes in a certain way.
+use top, left to move the boxes relative to their container.
+z-index moves boxes either in front or behind when scrolling.*/
+/* float moves an element either all way to left or right. need a width specified*/
+/*clear makes sure that any element cannot touch it on a given side (left or right)*/
+/*background-image: url("insrt link");
+background-repeat: no-repeat (or repeat etc)
+ background-position: center bottom; (top center, right top etc)
+ background: url("insrt link") no-repeat center bottom;
+ background-size: cover( or contain)
+ background-attachment: fixed (like position asbolute)
+ background-image: -webkit-linear-gradient(#FFD194, #BC1324) (color gradient)
+*/
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.plain{
+  height: 190px;
+	padding-top: 4px;
+}
+.plain p{
+  color: Crimson;
+}
+.plain h3{
+  font-weight: 700;
+  color: Crimson;
+}
+/* Add the ID selector to this CSS rule */
+.header-text
+ {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 25%;
+  width: 60%;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+h4 {
+  color: #CCC;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+/* Add the class selector to this CSS rule */
+.partner
+ {
+  padding: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid #EEE;
+}
+
+.partner img{
+  position: relative;
+  top: 6px;
+}
+/*for ID selectors*/
+#aa-logo {
+  padding-left: 6px;
+}
+
+.main {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/shards.png");
+  margin: 0;
+  padding: 40px;
+}
+
+.value-props {
+  margin: 20px auto;
+  width: 60%;
+}
+.prop, .partner {
+  text-align: center;
+}
+.prop {
+  border: 1px solid #FFF;
+  padding: 40px 0;
+  margin: 20px 0;
+}
+
+.prop h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
