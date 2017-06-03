@@ -50,7 +50,7 @@ background-repeat: no-repeat (or repeat etc)
 */
 
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
+  background-image: url("https://s3.amazonaws.com/spicyhottea/1400533494184.jpg");
   background-position: center center;
   background-size: cover;
   height: 700px;
