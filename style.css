@@ -120,7 +120,10 @@ p {
   text-align: center;
   width: 60%;
 }
-
+.buttons h4{
+	color: black;
+	text-align: center;
+}
 /* Add the class selector to this CSS rule */
 .partner
  {
