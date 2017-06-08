@@ -60,10 +60,10 @@ auto causes element to be centered in its container
 	left: 0;
     top: 0;
 	z-index: 10;
+	width: 100%;
 }
 .headbtn li{
 	display: inline-block;
-	width: 100%;
 	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .header {
