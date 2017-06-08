@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
+*{
+  box-sizing: border-box;
+}
 /*border-width goes in clockwise order, starting at top.
 border-left-width targets left width
 just use border (affects width, color and style on same line-height
@@ -47,14 +50,27 @@ background-repeat: no-repeat (or repeat etc)
  background-size: cover( or contain)
  background-attachment: fixed (like position asbolute)
  background-image: -webkit-linear-gradient(#FFD194, #BC1324) (color gradient)
-*/
-
+auto causes element to be centered in its container
+ */
+.headbtn {
+	background-color: rgba(255, 255, 255, 0.9);
+	height: auto;
+	margin: auto;
+	position: fixed;
+	left: 0;
+    top: 0;
+	z-index: 10;
+}
+.headbtn li{
+	display: inline-block;
+}
 .header {
   background-image: url("https://s3.amazonaws.com/spicyhottea/1400533494184.jpg");
   background-position: center center;
   background-size: cover;
   height: 300px;
   width: 100%;
+  text-align: center;
 }
 .plain{
   height: 190px;
@@ -67,8 +83,7 @@ background-repeat: no-repeat (or repeat etc)
   font-weight: 700;
   color: Crimson;
 }
-/* Add the ID selector to this CSS rule */
-.header-text
+#header-text
  {
   margin: 0 auto;
   position: relative;
