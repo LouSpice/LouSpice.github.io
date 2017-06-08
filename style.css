@@ -53,7 +53,7 @@ background-repeat: no-repeat (or repeat etc)
 auto causes element to be centered in its container
  */
 .headbtn {
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(132, 189, 217, 0.9);
 	height: auto;
 	margin: auto;
 	position: fixed;
@@ -63,6 +63,8 @@ auto causes element to be centered in its container
 }
 .headbtn li{
 	display: inline-block;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .header {
   background-image: url("https://s3.amazonaws.com/spicyhottea/1400533494184.jpg");
