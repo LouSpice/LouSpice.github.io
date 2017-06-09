@@ -52,6 +52,10 @@ background-repeat: no-repeat (or repeat etc)
  background-image: -webkit-linear-gradient(#FFD194, #BC1324) (color gradient)
 auto causes element to be centered in its container
  */
+ .container{
+	 max-width: 1300px;
+	 margin: 0 auto;
+ }
 .headbtn {
 	background-color: rgba(30, 23, 21, 0.9);
 	height: auto;
@@ -78,9 +82,9 @@ auto causes element to be centered in its container
 	text-transform: uppercase;
 	margin-right: 10px;
 	text-align: center;
-	padding: 10px 0 10px 0;
+	padding: 8px 0 8px 0;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1.2em;
 }
 .headbtn ul li a:hover{
     background-color:#f0f0f0;
@@ -90,8 +94,8 @@ auto causes element to be centered in its container
   background-position: center center;
   background-size: cover;
   height: 300px;
-  width: 100%;
   text-align: center;
+  border: 2px solid black;
 }
 .plain{
   height: 190px;
@@ -104,13 +108,12 @@ auto causes element to be centered in its container
   font-weight: 700;
   color: Crimson;
 }
+
 #header-text
  {
   margin: 0 auto;
   position: relative;
-  text-align: center;
-  top: 28%;
-  width: 60%;
+  top: 30%;
 }
 
 h1 {
@@ -156,11 +159,18 @@ p {
   text-align: center;
   width: 60%;
 }
+.buttons {
+	background-color: rgb(243, 204, 165);
+	margin: 0 auto;
+	border: 1px solid black;
+    /*border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;*/
+}
 .buttons h4{
 	color: black;
 	text-align: center;
 }
-/* Add the class selector to this CSS rule */
 .partner
  {
   padding: 10px;
@@ -178,9 +188,16 @@ p {
 }
 
 .main {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/shards.png");
-  margin: 0;
-  padding: 40px;
+  margin: 0 auto;
+  max-width: 900px;
+  position: relative;
+}
+.main h3, .main p, .main h2 {
+	color: black;
+}
+.main2{
+	background: url("https://s3.amazonaws.com/spicyhottea/1583998.jpg");
+	margin: 0 auto;
 }
 
 .value-props {
