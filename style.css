@@ -1,5 +1,6 @@
 body {
-  background-color: #FFF;
+  background-image: url("https://s3.amazonaws.com/spicyhottea/1427678798992.jpg");
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
@@ -197,7 +198,6 @@ p {
 }
 .main2{
 	background: url("https://s3.amazonaws.com/spicyhottea/1583998.jpg");
-	margin: 0 auto;
 }
 
 .value-props {
@@ -216,4 +216,14 @@ p {
 .prop h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
+}
+table{
+	margin-bottom: 5px;
+}
+table, th, td {
+	border: 1px solid rgb(83, 232, 249);
+	border-collapse: collapse;
+}
+th, td {
+	color: rgb(217, 94, 13);
 }
