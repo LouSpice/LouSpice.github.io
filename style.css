@@ -53,10 +53,6 @@ background-repeat: no-repeat (or repeat etc)
  background-image: -webkit-linear-gradient(#FFD194, #BC1324) (color gradient)
 auto causes element to be centered in its container
  */
- .container{
-	 max-width: 1300px;
-	 margin: 0 auto;
- }
 .nav {
 	background-color: rgba(255, 255, 255);
 	height: auto;
@@ -73,7 +69,6 @@ auto causes element to be centered in its container
 .nav li, .nav a{
     display: inline-block;
 }
-/* .headbtn li doesnt work here*/
 .nav a{
     color: rgba(30, 23, 21, 0.9);
 	/*border: 2px solid black;*/
@@ -94,16 +89,19 @@ auto causes element to be centered in its container
 }
 .nav a:active {
     top: 2px;
-} top: 2px;
 }
+.container {
+	 max-width: 1300px;
+	 margin: 0 auto;
+ }
 .header {
   background-image: url("https://s3.amazonaws.com/spicyhottea/1400533494184.jpg");
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   height: 300px;
+  margin-top: 40px;
   text-align: center;
   border: 2px solid black;
-  margin-top: 40px;
 }
 .plain{
   height: 190px;
