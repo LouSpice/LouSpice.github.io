@@ -1,118 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Testing Out HTML</title>
-  <link rel="icon" href="https://s3.amazonaws.com/spicyhottea/favicon-96x96.png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="pagestyle.css">
-</head>
-<body>
-
-  <div class="headbtn">
-    <ul>
-	 <li><a href="https://spicyhottea.github.io"> Home </a></li>
-	 <li><a href="https://spicyhottea.github.io/page1.html"> 1st Page </a></li>
-	 <li><a href="#"> btn 3 </a></li>
-	</ul>
-  </div>
-  
-  <div class="container">
-    <div class="header">
-      <div id="header-text">
-        <h1>Testing Stuff</h1>
-        <h2>pls its not that ugly</h2>
-      </div>
+  <head>
+    <title>Testing Out HTML</title>
+    <link rel="icon" href="https://s3.amazonaws.com/spicyhottea/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="pagestyle.css">
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+	   <li><a href="https://spicyhottea.github.io"> Home </a></li>
+	   <li><a href="https://spicyhottea.github.io/page1.html"> 1st Page </a></li>
+	   <li><a href="#"> btn 3 </a></li>
+	  </ul>
     </div>
-	
-    <div class="main">
-      <div class="buttons">
-        <h4>Adding img <img src="https://s3.amazonaws.com/spicyhottea/1400533494184.jpg" id="aa-logo" width="150px"></h4>
-      </div>
-
-      <div class="main2">
-	    <div class="main-text">
-          <h3>heres a title for something</h3>
-          <p>and a somewhat long description for said title and heres a few boxes for you</p>
-		</div>
-        <div class="value-props">
-          <div class="prop">
-            <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_diamond.png" width="60px">
-            <h2>title #1</h2>
-            <p>diamonds are cool</p>
-          </div>
-
-          <div class="prop">
-            <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_diamond.png" width="60px">
-            <h2>title #2</h2>
-            <p>two diamonds are cool</p>
-          </div>
-
-          <div class="prop">
-            <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_diamond.png" width="60px">
-            <h2>Greedy</h2>
-            <p>three diamonds is too much</p>
-          </div>
+  
+    <div class="container">
+      <div class="header">
+        <div id="header-text">
+          <h1>Testing Stuff</h1>
+          <h2>pls its not that ugly</h2>
         </div>
-	  </div>
+      </div>
+	
+	  <div class="center">
+	    <div class="leftmain">
+		  <h3> Title 1 </h3>
+	      <p> Adding some text here so I can test out left sidebar</p>
+	    </div>
+        <div class="middlemain">
+          <div class="buttons">
+            <h4>Adding img <img src="https://s3.amazonaws.com/spicyhottea/1400533494184.jpg" id="aa-logo" width="150px"></h4>
+          </div>
+
+          <div class="main2">
+	        <div class="main-text">
+              <h3>heres a title for something</h3>
+              <p>and a somewhat long description for said title and heres a few boxes for you</p>
+		    </div>
+            <div class="value-props">
+              <div class="prop">
+                <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_diamond.png" width="60px">
+                <h2>title #1</h2>
+                <p>diamonds are cool</p>
+              </div>
+
+              <div class="prop">
+                <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_diamond.png" width="60px">
+                <h2>title #2</h2>
+                <p>two diamonds are cool</p>
+              </div>
+
+              <div class="prop">
+                <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_diamond.png" width="60px">
+                <h2>Greedy</h2>
+                <p>three diamonds is too much</p>
+              </div>
+            </div>
+	      </div>
+        </div>
+		<div class="rightmain">
+		  <h3> Why not? </h3>
+		  <p> Here is the right sidebar </p>
+	    </div>
+      </div>
     </div>
-  </div>
-  <div>
-	<p> Heres some more test stuff like tables and whatnot</p>
-  </div>
-  
-  <div class="tables">
-   <table>
-    <thead>
-      <tr>
-        <th scope="col"> a column </th>
-        <th scope="col"> column #2</th>
-        <th scope="col"> column#3</th>
-      </tr>
-   </thead>
-    <tbody>
-      <tr>
-        <td> take 1 row </td>
-        <td> 14 </td>
-        <td> action  </td>
-      </tr>
-      <tr>
-        <td>take 2 rows!</td>
-        <td>2</td>
-        <td>action 2</td>
-      </tr>
-      <tr>
-        <td>why not 3</td>
-        <td colspan="2">spanning 2 columns</td>
-        <td>this should be out of range</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td> sum numbers </td>
-        <td> a total </td>
-      </tr>
-    </tfoot>
-  </table>
-  
-  <table>
-  <tr> <!-- Row 1 -->
-    <th></th>
-    <th>Saturday</th>
-    <th>Sunday</th>
-  </tr>
-  <tr> <!-- Row 2 -->
-    <th>Morning</th>
-    <td rowspan="2">Work</td>
-    <td rowspan="3">Relax</td>
-  </tr>
-  <tr> <!-- Row 3 -->
-    <th>Afternoon</th>
-  </tr>
-  <tr> <!-- Row 4 -->
-    <th>Evening</th>
-    <td>Dinner</td>
-  </tr>
-</table>
-</div>
 </body>
 </html>
