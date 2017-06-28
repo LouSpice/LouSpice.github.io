@@ -40,7 +40,7 @@ body {
 	position: relative;
 }
 .nav a:hover {
-    background-color:#f0f0f0;
+	background-color:#f0f0f0;
 	border-radius: 10px;
 }
 .nav a:active {
@@ -100,8 +100,25 @@ body {
 	right: 40%;
 	margin-bottom: 0;
 }
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+}
+.leftbar{
+	width: 200px;
+	border: 2px solid red;
+}
 .midbar h1{
 	font-size: 100px;
+	width: 400px;
+	border: 2px solid blue;
+}
+.rightbar{
+	width: 200px;
+	border: 2px solid green;
 }
 @media only screen and (max-width: 480px){
   .nav{
