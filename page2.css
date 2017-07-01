@@ -120,7 +120,7 @@ body {
 	font-size: 100px;
 	width: 100%;
 	border: 2px solid blue;
-	overflow: auto;
+	overflow: hidden;
 }
 .rightbar{
 	order:3;
@@ -177,6 +177,7 @@ body {
 	background-size: contain;
 	background-repeat: repeat-x;
 	position: relative;
+	margin-bottom: 0;
 }
 .header:after {
 	padding-top: 28.125%;
@@ -238,6 +239,7 @@ body {
 	font-size: 100px;
 	width: 650px;
 	border: 2px solid blue;
+    overflow: auto;
 }
 .rightbar{
 	order: 3;
