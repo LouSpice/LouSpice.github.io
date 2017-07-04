@@ -16,7 +16,7 @@ input[type=checkbox]:checked ~ .nav{
 	top: 27px;
 }
 input[type=checkbox]:checked ~ .header{
-	margin-top: 85px;
+	margin-top: 110px;
 }
 input[type=checkbox]:checked ~ .nav ul{
 	display: block;
@@ -31,6 +31,12 @@ input[type=checkbox]:checked ~ .nav li{
 	font-family: Simplifica, 'Berlin Sans FB';
 	font-weight: bold;
 	font-size: 25px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255);
+	z-index: 10;
 }
 .nav{
 	background-color: rgba(255, 255, 255);
@@ -77,6 +83,7 @@ input[type=checkbox]:checked ~ .nav li{
 	background-size: contain;
 	background-repeat: repeat-x;
 	position: relative;
+	margin-top: 25px;
 }
 .header h3, h4{
 	visibility: hidden;
